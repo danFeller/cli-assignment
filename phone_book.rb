@@ -35,7 +35,7 @@ class PhoneBook
   def contact_log
     puts "----------- #{@contacts.length} Contacts Known -----------"
     @contacts.each do |c|
-      c.format
+      puts c.format
     end
     puts "----------------------------------------"
   end

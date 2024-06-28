@@ -6,6 +6,6 @@ class Contact
   end
   
   def format
-    puts "#{@number} | #{@name} | #{@contact_type}"
+    "#{@number} | #{@name} | #{@contact_type}"
   end
 end
